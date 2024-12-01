@@ -18316,7 +18316,7 @@ a4A:function a4A(){},
 a5S(a,b){var s=0,r=A.O(t.Cq),q,p,o
 var $async$a5S=A.P(function(c,d){if(c===1)return A.L(d,r)
 while(true)switch(s){case 0:s=3
-return A.R(A.aru(A.eT("http://api.aladhan.com/v1/timings?latitude="+A.i(a)+"=&longitude="+A.i(b))),$async$a5S)
+return A.R(A.aru(A.eT("https://api.aladhan.com/v1/timings?latitude="+A.i(a)+"=&longitude="+A.i(b))),$async$a5S)
 case 3:o=d
 if(o.b===200){p=t.a.a(J.fz(J.fz(B.c1.G5(A.arf(A.apr(o.e).c.a.j(0,"charset")).dj(o.w),null),"data"),"timings")).gcD()
 q=p.cd(p,new A.a5T(),t.of).cJ(0)
